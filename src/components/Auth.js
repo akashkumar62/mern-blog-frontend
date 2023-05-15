@@ -48,13 +48,13 @@ const sendRequest= async (type="login")=>{
    
   }
   return (
- 
+  
    
-    <div>
+   <div>
       <form onSubmit={handleSubmit}>
 
         <Box 
-        
+          
         maxWidth="400px"
         display="flex" 
         flexDirection="column"
@@ -79,7 +79,13 @@ const sendRequest= async (type="login")=>{
           <Button onClick={()=>setIsSignup(!isSignup)} borderRadius="10px">Change To {isSignup ? "Login" : "Signup"}</Button>
         </Box>
       </form>
+
+
     </div>
+
+     
+    
+
   )
 }
 
